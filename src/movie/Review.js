@@ -47,7 +47,7 @@ function Review({ review, deleteReview, setReviewScore }) {
         </button>
       </p>
 
-      <button className="btn btn-danger" disabled={disabled} onClick={() => deleteReview(review)}>
+      <button className="btn btn-danger" onClick={() => deleteReview(review)} disabled>
         Destroy Review
       </button>
     </section>
